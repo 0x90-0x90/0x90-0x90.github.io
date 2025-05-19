@@ -1,9 +1,9 @@
 # Setup
 title: Dark Poole
-url: https://andrewhwanpark.github.io/dark-poole
+url: https://nopnop.pro
 paginate: 1
 paginate_path: "/page:num/"
-baseurl: ""
+baseurl: "/"
 permalink: pretty
 
 # Gems
