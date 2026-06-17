@@ -10,6 +10,11 @@ pre {
 
 code {
   font-size: 85%;
+  color: var(--code-color);
+  background-color: var(--code-bg);
+  padding: .1em .4em;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
 }
 
 pre {
@@ -19,10 +24,18 @@ pre {
   overflow: auto;
 }
 
+pre code {
+  color: inherit;
+  background: none;
+  padding: 0;
+  border: 0;
+}
+
 .highlight {
   padding: var(--spacer);
   margin-bottom: var(--spacer);
   background-color: var(--code-bg);
+  border: 1px solid var(--border-color);
   border-radius: var(--border-radius);
 
   pre {
@@ -32,6 +45,7 @@ pre {
   // Triple backticks (code fencing) doubles the .highlight elements
   .highlight {
     padding: 0;
+    border: 0;
   }
 }
 

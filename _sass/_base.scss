@@ -60,6 +60,12 @@ th {
 }
 
 thead th {
+  font-family: var(--code-font);
+  font-size: .72rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--gray-600);
   border-bottom-color: currentColor;
 }
 

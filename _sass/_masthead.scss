@@ -3,6 +3,11 @@
 // Super small header above the content for site name and short description.
 
 .masthead {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: .5rem 1.5rem;
   padding-top: var(--spacer);
   padding-bottom: var(--spacer);
   margin-bottom: var(--spacer-3);
@@ -12,19 +17,40 @@
   margin-bottom: 0;
 
   a {
-    color: inherit;
+    color: var(--accent);
     text-decoration: none;
   }
+}
 
-  small {
-    font-weight: 400;
-    opacity: 0.5;
-  }
+.masthead-tagline {
+  display: block;
+  margin-top: .3rem;
+  font-family: var(--code-font);
+  font-size: .72rem;
+  font-weight: 400;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--muted);
 }
 
 // Navbar styles
 .nav {
-  float: right;
-  line-height: 1.25rem;
-  word-spacing: 1rem;
+  font-family: var(--code-font);
+  font-size: .72rem;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+
+  a {
+    margin-left: 1.4rem;
+    color: var(--muted);
+    text-decoration: none;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &:hover {
+      color: var(--fg);
+    }
+  }
 }

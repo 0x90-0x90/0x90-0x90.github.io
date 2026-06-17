@@ -1,5 +1,6 @@
 # Setup
-title: Chasing Bugs
+title: Arbitrary
+tagline: offensive security research
 url: https://nopnop.pro/
 paginate: 1
 paginate_path: "/page:num/"
@@ -33,9 +34,7 @@ ga_analytics: G-WKF0YBP186
 
 # Specify the author for blog posts
 author:
-  name: Mark Otto
-  url: https://twitter.com/mdo
-  email: markdotto@gmail.com
+  name: nopnop
 
 # Custom vars
 version: 3.0.0
