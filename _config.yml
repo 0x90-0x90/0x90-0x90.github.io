@@ -35,6 +35,8 @@ ga_analytics: G-WKF0YBP186
 # Specify the author for blog posts
 author:
   name: nopnop
+  url: https://x.com/__nopnop
+  email: info@nopnop.pro
 
 # Custom vars
 version: 3.0.0
