@@ -75,9 +75,5 @@ Get in touch for any inquiries.
   max-height: 24px;
   fill: white !important;
 }
-
-.text-center {
-  text-align: center;
-}
 </style>
 
